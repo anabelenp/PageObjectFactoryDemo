@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Page Object Model with Page Factories">
+    <listeners>
+        <listener class-name="com.abruno.listeners.CustomListeners" />
+        <listener class-name="com.abruno.errorcollectors.TestListenerAdapter" />
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+    <test name="Sign in Test">
+        <classes>
+            <class name="com.abruno.testcases.SignInTest" />
+        </classes>
+    </test>
+    <!-- Test -->
+    <test name="Flight Search Test">
+        <classes>
+            <class name="com.abruno.testcases.FlightSearchTest" />
+        </classes>
+    </test>
+    <!-- Test -->
+</suite>
+<!-- Suite -->
